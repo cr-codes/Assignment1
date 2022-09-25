@@ -74,15 +74,17 @@ export const Register = () => {
                     </span>
 
                     <span className="inputBox">
-                        <label htmlFor="quali">Qualification:</label>
-                        <input type="text" name="quali" id="quali" />
+                        <label htmlFor="email_id">Email:</label>
+                        <input type="email" name="email_id" id="email_id" />
                     </span>
+
+
                 </div>
 
                 <div className="boxRow">
                     <span className="inputBox">
-                        <label htmlFor="email_id">Email:</label>
-                        <input type="email" name="email_id" id="email_id" />
+                        <label htmlFor="quali">Qualification:</label>
+                        <input type="text" name="quali" id="quali" />
                     </span>
 
                     <span className="inputBox">
